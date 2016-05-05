@@ -188,12 +188,12 @@ void dealornodeal::_randomnumber(int* v,int n,int* randomPtr)
 		randomPtr[ridx] = randomPtr[j];
 		randomPtr[j] = temp;
 	}
-	cout<<endl<<"Random Array"<<endl;
+	/*cout<<endl<<"Random Array"<<endl;
 	for(int i=0;i<n;i++)
 	{
 		cout<<randomPtr[i]<<" ";
 	}
-	cout<<endl;
+	cout<<endl;*/
 }
 void dealornodeal::_displayModifiedSuitcases(int* v,int n,int m)
 {
